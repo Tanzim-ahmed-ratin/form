@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 40px;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.main input, select, textarea{
+outline: none;
+width: 100%;
+border: 1px solid #eee;
+border-radius: 3px;
+padding: 4px;
+}
+
+.main input, select, textarea:focus{
+    outline: 1px solid rgb(26, 116, 213);
+}
+
+#text{
+    height: 250px;
+    width: 100%;
+    resize: vertical;
+
+}
+
+#submit{
+    background: #27ae60;
+    color: white;
+    padding: 16px 20px;
+    outline: 1px solid wheat;
+    cursor: pointer;
+}
+
+#submit:hover{
+background-color: #2ecc71;
+}
